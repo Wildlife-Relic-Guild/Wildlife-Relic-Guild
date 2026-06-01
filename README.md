@@ -10,7 +10,7 @@ Run it in minutes. Keep everything it finds. Donate what feels right.
 
 ## What it does
 
-Cloudcraft scans your entire AWS account across 17 regions and 14 checks, finds wasted spend — orphaned storage, idle endpoints, forgotten resources — and gives you a full report with exact resource IDs and step-by-step remediation.
+Relic scans your entire AWS account across 17 regions and 14 checks, finds wasted spend — orphaned storage, idle endpoints, forgotten resources — and gives you a full report with exact resource IDs and step-by-step remediation.
 
 No lock. No paywall. No fee.
 
@@ -24,7 +24,7 @@ We are strictly read-only. We observe, we analyse, we report.
 
 We never make changes to your infrastructure. We never delete anything. We never store your credentials. We simply show you what's really there.
 
-The IAM policy required to run Cloudcraft grants list and describe permissions only. You can read every line of it before applying it. You can delete the IAM user the moment the scan is complete.
+The IAM policy required to run Relic grants list and describe permissions only. You can read every line of it before applying it. You can delete the IAM user the moment the scan is complete.
 
 ---
 
@@ -116,8 +116,8 @@ python3 cloudcraft.py
 
 The scan covers all 17 AWS regions and takes 2–5 minutes. Two files are saved locally when complete:
 
-- `cloudcraft-{account}-{timestamp}.html` — open in any browser
-- `cloudcraft-{account}-{timestamp}.txt` — plain text backup
+- `relic-{account}-{timestamp}.html` — open in any browser
+- `relic-{account}-{timestamp}.txt` — plain text backup
 
 **Delete the IAM user when done.** You have everything you need. There is no reason to leave those credentials active.
 
@@ -141,7 +141,7 @@ The plain text report contains the same information and is designed to be forwar
 
 It's optional. It's not guilt-free either.
 
-If Cloudcraft found waste, you now know something you didn't know an hour ago. That knowledge is worth something. The suggested donation scales with what was found — not what we think you should pay, just a number that reflects what the scan delivered.
+If Relic found waste, you now know something you didn't know an hour ago. That knowledge is worth something. The suggested donation scales with what was found — not what we think you should pay, just a number that reflects what the scan delivered.
 
 If your account is clean — nothing found — the button is still there. A clean account means efficient infrastructure, lower energy consumption, and a smaller carbon footprint. That's worth something too. If you want to put a number on it, Mossy Earth will put it in the ground.
 
@@ -162,13 +162,13 @@ Conservation partnership confirmed March 2026 with Matt Davies, Co-Founder.
 
 ## Part of Wildlife Relic Guild
 
-Cloudcraft is one of four tools built under the Wildlife Relic Guild — a Bedford, UK family guild building field intelligence tools that fund conservation through use.
+Relic is one of four tools built under the Wildlife Relic Guild — a Bedford, UK family guild building field intelligence tools that fund conservation through use.
 
 ```
 Wildlife Relic Guild
-├── Cloudcraft        — cloud waste intelligence (this tool)
-├── Fieldcraft        — metal detecting field companion
-├── Wingcraft         — birding field companion
+├── Relic        — cloud waste intelligence (this tool)
+├── Fieldcraft Heritage        — metal detecting field companion
+├── Fieldcraft Nature          — birding field companion
 └── Leystone Relics   — AR location RPG built on real British landscapes
 ```
 
