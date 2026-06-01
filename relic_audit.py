@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-RELIC AUDIT GUILD v19.0 — PRODUCTION READY (Rich CLI + Integrated HTML Reports)
+RELIC AUDIT GUILD v19.7 — PRODUCTION READY (Rich CLI + Integrated HTML Reports)
 ✅ Pre-flight credential validation
 ✅ Minimal IAM policy included
 ✅ Rate limiting (time.sleep(0.1))
@@ -13,7 +13,7 @@ RELIC AUDIT GUILD v19.0 — PRODUCTION READY (Rich CLI + Integrated HTML Reports
 """
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                         RELIC AUDIT GUILD                                  ║
-║                  Cloud Waste Intelligence Engine v19.0                     ║
+║                  Cloud Waste Intelligence Engine v19.7                     ║
 ║                                                                            ║
 ║        "Legacy in the landscape, for your company and my family."          ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
