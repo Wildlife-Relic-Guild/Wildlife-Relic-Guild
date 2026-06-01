@@ -156,7 +156,7 @@ Every penny goes directly to Mossy Earth. Wildlife Relic Guild takes nothing fro
 GPS-documented. Camera-monitored. Species-tracked. Not carbon credits. Not offsets. Actual land coming back to life.
 
 Conservation partnership confirmed March 2026 with Matt Davies, Co-Founder.
-[mossy.earth](https://mossy.earth)
+[mossy.earth](https://www.mossy.earth/membership?utm_source=relic&utm_medium=tool&utm_campaign=aws-audit)
 
 ---
 
