@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-RELIC AUDIT GUILD v19.7 — PRODUCTION READY (Rich CLI + Integrated HTML Reports)
+RELIC AUDIT GUILD v19.0 — PRODUCTION READY (Rich CLI + Integrated HTML Reports)
 ✅ Pre-flight credential validation
 ✅ Minimal IAM policy included
 ✅ Rate limiting (time.sleep(0.1))
@@ -13,7 +13,7 @@ RELIC AUDIT GUILD v19.7 — PRODUCTION READY (Rich CLI + Integrated HTML Reports
 """
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                         RELIC AUDIT GUILD                                  ║
-║                  Cloud Waste Intelligence Engine v19.7                     ║
+║                  Cloud Waste Intelligence Engine v19.0                     ║
 ║                                                                            ║
 ║        "Legacy in the landscape, for your company and my family."          ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
@@ -807,7 +807,7 @@ def _html_page_footer(scan_date, regions, duration):
         f'Scanned: {scan_date} UTC &nbsp;\u00b7&nbsp; {regions} regions'
         f' &nbsp;\u00b7&nbsp; {duration}'
         f' &nbsp;\u00b7&nbsp; '
-        f'<a href="https://www.mossy.earth/membership?utm_source=wildlife-relic-guild&utm_medium=audit-report&utm_campaign=relic-free-scan">Mossy Earth</a>'
+        f'<a href="https://www.mossy.earth/membership?utm_source=relic&utm_medium=tool&utm_campaign=aws-audit">Mossy Earth</a>'
         f' &nbsp;\u00b7&nbsp; '
         f'<a href="https://www.coolearth.org/donate/?utm_source=wildlife-relic-guild&utm_medium=audit-report&utm_campaign=relic-free-scan">Cool Earth</a>'
         f'</div>\n</body>\n</html>'
@@ -916,9 +916,9 @@ def _html_linkedin_share_panel(account, monthly_waste):
         f'<p class="li-conv-line" style="font-size:13px;margin-bottom:16px;">'
         f'Native woodland. Peatland. Species reintroduction. '
         f'No carbon credits. Actual land.</p>'
-        f'<button class="li-donate-btn" type="button" onclick="window.open(\'https://www.mossy.earth/membership\',\'_blank\')">'
+        f'<button class="li-donate-btn" type="button" onclick="window.open(\'https://www.mossy.earth/membership?utm_source=relic&utm_medium=tool&utm_campaign=aws-audit\',\'_blank\')">'
         f'Become a Member \u2192</button>'
-        f'<a class="li-mossy-link" href="https://www.mossy.earth" target="_blank" rel="noopener">'
+        f'<a class="li-mossy-link" href="https://www.mossy.earth/membership?utm_source=relic&utm_medium=tool&utm_campaign=aws-audit" target="_blank" rel="noopener">'
         f'mossy.earth</a>'
         f'</div>'
         f'</div>'  # end li-shoulder
@@ -959,7 +959,7 @@ def _html_linkedin_share_panel(account, monthly_waste):
         f'<button class="li-copy-btn" type="button" onclick="copyPostText()">Copy text</button>'
         f'</div>'
         f'<p class="li-mossy-credit">'
-        f'Mossy Earth \u00b7 <a href="https://mossy.earth" target="_blank" rel="noopener">'
+        f'Mossy Earth \u00b7 <a href="https://www.mossy.earth/membership?utm_source=relic&utm_medium=tool&utm_campaign=aws-audit" target="_blank" rel="noopener">'
         f'mossy.earth</a> \u00b7 Native rewilding \u00b7 No greenwash'
         f'</p>'
         f'</div>\n'
@@ -1173,7 +1173,7 @@ def _generate_html_preview(audit_data, findings, fee):
         f'<p class="eco-body">Estimated from idle resource energy use. '
         f'Transparent assumptions \u2014 not a certified offset.</p>'
         f'<div class="eco-footer">'
-        f'Conservation partner: <a href="https://mossy.earth">Mossy Earth</a>'
+        f'Conservation partner: <a href="https://www.mossy.earth/membership?utm_source=relic&utm_medium=tool&utm_campaign=aws-audit">Mossy Earth</a>'
         f' \u00b7 Verified native rewilding \u00b7 No greenwash'
         f'</div>'
         f'</div>\n'
