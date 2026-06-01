@@ -1,4 +1,6 @@
-# Cloudcraft
+# Relic
+
+[![Download Relic](https://img.shields.io/badge/Download-relic__audit.py-green?style=for-the-badge)](https://github.com/Wildlife-Relic-Guild/Wildlife-Relic-Guild/raw/main/relic_audit.py)
 
 **Free, open source, read-only AWS cloud waste scanner.**
 
