@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-RELIC AUDIT GUILD v19.0 — PRODUCTION READY (Rich CLI + Integrated HTML Reports)
+RELIC AUDIT GUILD v19.7 — PRODUCTION READY (Rich CLI + Integrated HTML Reports)
 ✅ Pre-flight credential validation
 ✅ Minimal IAM policy included
 ✅ Rate limiting (time.sleep(0.1))
@@ -13,7 +13,7 @@ RELIC AUDIT GUILD v19.0 — PRODUCTION READY (Rich CLI + Integrated HTML Reports
 """
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                         RELIC AUDIT GUILD                                  ║
-║                  Cloud Waste Intelligence Engine v19.0                     ║
+║                  Cloud Waste Intelligence Engine v19.7                     ║
 ║                                                                            ║
 ║        "Legacy in the landscape, for your company and my family."          ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
@@ -1191,7 +1191,7 @@ def _generate_html_preview(audit_data, findings, fee):
     )
     result += (
         f'<header>'
-        f'<div class="eyebrow">Cloud Audit Report &nbsp;\u00b7&nbsp; v19.5'
+        f'<div class="eyebrow">Cloud Audit Report &nbsp;\u00b7&nbsp; v19.7'
         f' &nbsp;\u00b7&nbsp; Wildlife Relic Guild</div>'
         f'<div class="brand">WILDLIFE RELIC GUILD</div>'
         f'<p class="headline">{headline}</p>'
@@ -1234,7 +1234,7 @@ def _generate_html_full(audit_data, findings, fee):
     )
     result += (
         f'<header>'
-        f'<div class="eyebrow">Full Report &nbsp;\u00b7&nbsp; v19.5'
+        f'<div class="eyebrow">Full Report &nbsp;\u00b7&nbsp; v19.7'
         f' &nbsp;\u00b7&nbsp; Wildlife Relic Guild</div>'
         f'<div class="brand">RELIC AUDIT GUILD</div>'
         f'<p class="headline">Your full remediation plan.'
@@ -2239,7 +2239,7 @@ class RelicAuditEngine:
         scan_start = time.time()
 
         banner(
-            "RELIC AUDIT GUILD — Cloud Waste Intelligence Engine v19.0\n"
+            "RELIC AUDIT GUILD — Cloud Waste Intelligence Engine v19.7\n"
             "Legacy in the landscape, for your company and my family.\n"
             "Read-Only · No ML · No Credentials Stored · No Agents\n"
             "14 checks · Multi-region · Warnings/errors separated"
@@ -2653,7 +2653,7 @@ class RelicAuditEngine:
                 # ── HEADER ────────────────────────────────────────────────────
                 w(rule('═') + '\n')
                 w(centre('RELIC AUDIT GUILD') + '\n')
-                w(centre('Cloud Waste Intelligence Engine  v19.0') + '\n')
+                w(centre('Cloud Waste Intelligence Engine  v19.7') + '\n')
                 w(rule('═') + '\n\n')
 
                 w(kv('Account',      account) + '\n')
